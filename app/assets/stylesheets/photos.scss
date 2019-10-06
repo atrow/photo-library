@@ -1,0 +1,25 @@
+.v-enter {
+  // 要素挿入開始
+  opacity: 0;
+}
+.v-enter-to {
+  // 要素挿入終了
+  opacity: 1;
+}
+.v-enter-active {
+  // 動作を指定
+  transition: opacity 300ms ease-out;
+}
+
+.v-leave {
+  // 要素挿入開始
+  opacity: 1;
+}
+.v-leave-to {
+  // 要素挿入終了
+  opacity: 0;
+}
+.v-leave-active {
+  // 動作を指定
+  transition: opacity 300ms ease-out;
+}
