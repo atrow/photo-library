@@ -32,11 +32,11 @@ Things you may want to cover:
 |photo|varchar|null: false|
 |caption|varchar||
 |address|varchar||
-|latitude|double(8,6)||
-|longitude|double(9,6)||
+|latitude|decimal(8,6)||
+|longitude|decimal(9,6)||
 |camera_model|varchar||
 |exposure_time|varchar||
-|f_number|varchar||
+|f_number|float||
 |focal_length|integer||
 |iso_speed|integer||
 |datetime|datetime||
