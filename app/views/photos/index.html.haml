@@ -1,0 +1,8 @@
+%h1 Vue.js サンプル
+#hello
+  %transition
+    %p.message{"v-if" => "show"} {{ message }}
+  %button{"v-on:click" => "japanese"} 日本語表示
+  %button{"v-on:click" => "english"} 英語表示
+  %button{"v-on:click" => "show = !show"} 出し入れ
+= javascript_pack_tag 'vue'
