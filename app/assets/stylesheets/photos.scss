@@ -1,3 +1,60 @@
+// html
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// header
+.header {
+  min-width: 100vh;
+  height: 60px;
+  background-color: aqua;
+
+  .logo {
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+
+    &__image {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .menu_bar {
+    display: inline-block;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    vertical-align: top;
+
+    nav {
+
+      ul {
+
+        li {
+          display: inline-block;
+          padding: 0 10px 0 10px;
+
+          a {
+            text-decoration: none;
+            color: black;
+
+            i {
+            }
+          }
+
+          a:visited {
+            color: black;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+// index
 .main {
   width: 100%;
   height: 100%;
